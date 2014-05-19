@@ -153,7 +153,7 @@ namespace mongo {
 #if defined(MONGO_BOOST_TIME_UTC_HACK) || (BOOST_VERSION >= 105000)
 #define MONGO_BOOST_TIME_UTC boost::TIME_UTC_
 #else
-#define MONGO_BOOST_TIME_UTC boost::TIME_UTC
+#define MONGO_BOOST_TIME_UTC boost::TIME_UTC_
 #endif
 
 }  // namespace mongo
